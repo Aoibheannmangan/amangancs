@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #C8A2C8;
+  align-content: center;
+}
+h1{
+  color: darkgreen;
+  text-align: center;
+  font-family: fantasy;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  background-color: #d69aaf;
+}
+th{
+  background-color: #f56195;
+}
+p{
+  font-family: fantasy;
+  text-align: center;
+}
+img{
+  height: 200px;
+  width: 50%;
+  align-self: center;
+}
+li{
+   size: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.glow {
+  font-size: 25px;
+  font-family: ariel;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.glow2 {
+  font-size: 15px;
+  font-family: ariel;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+button {
+  background-color: #ff57f9; 
+  border: none;
+  color: black;
+  font-family: Courier New;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.home{
+  background-color: #ff57f9; 
+  border: none;
+  color: black;
+  font-family: Courier New;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  align-self: center;
+}
